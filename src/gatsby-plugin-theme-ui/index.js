@@ -2,9 +2,9 @@ import nightOwl from "@theme-ui/prism/presets/night-owl.json";
 import colors from "./colors";
 import headings from "./headings";
 
-const transition = "0.2s ease-out";
+const transition = "0.3s ease-out";
 const systemFonts =
-  "-apple-system, BlinkMacSystemFont, San Francisco, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif";
+  "-apple-system, BlinkMacSystemFont, San Francisco, Helvetica Neue, Helvetica, Ubuntu, Noto, Segoe UI, Arial, sans-serif";
 
 export default {
   initialColorMode: `dark`,

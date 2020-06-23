@@ -1,13 +1,13 @@
 export default {
   text: "#000",
-  background: "#fff",
-  primary: "#e63b19",
-  secondary: "#c70d3a",
-  sidebar: "#eee",
+  background: "#F0F0F0",
+  primary: "#0A10E6",
+  secondary: "#0A10E6",
+  sidebar: "#F0F0F0",
   borderColor: "rgba(0, 0, 0, 0.15)",
   modes: {
     dark: {
-      text: "#fff",
+      text: "#ccc",
       background: "#182952",
       primary: "#f638dc",
       secondary: "#ff7976",
@@ -23,11 +23,11 @@ export default {
       borderColor: "rgba(255, 255, 255, 0.15)"
     },
     deep: {
-      text: "#fff",
-      background: "hsl(230,25%,18%)",
-      primary: "hsl(260, 100%, 80%)",
-      secondary: "hsl(290, 100%, 80%)",
-      sidebar: "hsla(230, 20%, 0%, 20%)",
+      text: "#ccc",
+      background: "#171923",
+      primary: "#FEFEFE",
+      secondary: "#F5F5F5",
+      sidebar: "#171923",
       borderColor: "rgba(255, 255, 255, 0.15)"
     }
   }
