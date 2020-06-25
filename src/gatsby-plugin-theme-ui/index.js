@@ -7,7 +7,7 @@ const systemFonts =
   "-apple-system, BlinkMacSystemFont, San Francisco, Helvetica Neue, Helvetica, Ubuntu, Noto, Segoe UI, Arial, sans-serif";
 
 export default {
-  initialColorMode: `dark`,
+  initialColorMode: `deep`,
   colors,
   fonts: {
     body: systemFonts,
@@ -47,7 +47,7 @@ export default {
     },
     ...headings,
     p: {
-      my: 4
+      my: 3
     },
     a: {
       color: "secondary",

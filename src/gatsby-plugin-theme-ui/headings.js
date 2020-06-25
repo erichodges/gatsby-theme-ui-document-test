@@ -7,10 +7,8 @@ const headingBase = {
   '::before': {
     content: '" "',
     display: 'block',
-    paddingTop: 30,
-    marginBottom: 40,
-    borderBottom: '1px solid',
-    borderBottomColor: 'borderColor'
+    paddingTop: 10,
+    marginBottom: 0,
   }
 };
 
@@ -29,7 +27,8 @@ export default {
   },
   h4: {
     ...headingBase,
-    fontSize: 2
+    fontSize: 2,
+    mt: 5
   },
   h5: {
     ...headingBase,

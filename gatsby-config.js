@@ -15,7 +15,7 @@ module.exports = {
       }
     ],
     sidebarConfig: {
-      forcedNavOrder: ["/introduction", "/codeblock"],
+      forcedNavOrder: ["/Introduction", "/chapter-1", "/chapter-2", "/chapter-3", "/Chapter-4"],
       ignoreIndex: true
     }
   },
